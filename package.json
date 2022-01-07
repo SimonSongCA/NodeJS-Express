@@ -1,0 +1,25 @@
+{
+  "name": "express-web-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SimonSongCA/NodeJS-Express.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SimonSongCA/NodeJS-Express/issues"
+  },
+  "homepage": "https://github.com/SimonSongCA/NodeJS-Express#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "http-errors": "^1.8.1"
+  }
+}
