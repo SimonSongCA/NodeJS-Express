@@ -1,0 +1,13 @@
+#!/usr/bin/env node
+'use strict'
+
+const app = require('../app')
+const http = require('http')
+
+const PORT = process.env.PORT || 3000
+
+const server = http.createServer(app)
+
+server.listen(PORT)
+
+// this file is the entry point for the application, and is responsible for starting the server
