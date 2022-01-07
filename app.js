@@ -20,6 +20,7 @@ app.use((req, res, next) => {
 // middleware is returning an error as part of the result
 app.use((err, req, res, next) => {
   res.status(err.status || 500);
+  //if an object was passed to res.send that object would be serialized to JSON and the response Content-Type would automatically be set to application/json.
   res.send(err.message);
 });
 
