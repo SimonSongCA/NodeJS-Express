@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/SimonSongCA/NodeJS-Express#readme",
   "dependencies": {
-    "express": "^4.17.2",
-    "http-errors": "^1.8.1"
+    "express": "^4.17.3",
+    "http-errors": "^2.0.0"
   }
 }
