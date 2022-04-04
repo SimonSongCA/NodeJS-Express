@@ -1,8 +1,16 @@
 "use strict";
+
+// instantiating an 'Express' instance
 const express = require("express");
+// import 'http-errors' object
 const createError = require("http-errors");
+const indexRoutes = require("./routes/index");
+const helloRoutes = require("./routes/hello");
 
 const app = express();
+
+app.use("/", indexRoutes);
+app.use("/hello", helloRoutes);
 
 // this part of middleware should always be the second-to-last one
 // if this part is reached, then it indicates:
